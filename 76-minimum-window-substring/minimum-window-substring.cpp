@@ -6,7 +6,7 @@ public:
         int minsize = INT_MAX;
         int cur_size;
         int i = 0, j = 0;
-        unordered_map<int, int> mpp;
+        unordered_map<char, int> mpp;
         for (auto it : t) {
             mpp[it]++;
         }
