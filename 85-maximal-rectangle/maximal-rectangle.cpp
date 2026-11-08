@@ -1,7 +1,7 @@
 class Solution {
 public:
 
-    int mah(vector<int> nums){//maximum area of histogram
+    int mah(vector<int> &nums){//maximum area of histogram
         int n = nums.size();
         stack<pair<int, int>> st;
         int maxi = 0;
