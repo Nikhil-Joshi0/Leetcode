@@ -9,7 +9,7 @@ vector<vector<int>> ans;
         vector<int> op1 = op;
         vector<int> op2 = op;
         op2.push_back(ip[0]);
-        ip.erase(ip.begin());
+        ip.erase(ip.begin() + 0);
 
         helper(op1, ip);
         helper(op2, ip);
